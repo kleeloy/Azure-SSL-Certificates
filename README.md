@@ -17,31 +17,31 @@ This tutorial outlines how to create an Azure key vault and use it to store an S
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://github.com/kleeloy/Azure-Cloud-Web-Application-/blob/main/Diagrams/step1-project1.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/kleeloy/Azure-SSL-Certificates/blob/main/Diagrams/SSL-1.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Create an Azure key vault.
 
 
 <p>
-<img src="https://github.com/kleeloy/Azure-Cloud-Web-Application-/blob/main/Diagrams/step4-project1.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/kleeloy/Azure-SSL-Certificates/blob/main/Diagrams/SSL-2.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 </p>
 
 Returned to the command line to use OpenSSL.
 
 
 <p>
-<img src="https://github.com/kleeloy/Azure-Cloud-Web-Application-/blob/main/Diagrams/step5-project1.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/kleeloy/Azure-SSL-Certificates/blob/main/Diagrams/SSL-3.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 </p>
 OpenSSL to generate a certificate called a self-signed certificate.
 
 <p>
-<img src="https://github.com/kleeloy/Azure-Cloud-Web-Application-/blob/main/Diagrams/step7-project1.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/kleeloy/Azure-SSL-Certificates/blob/main/Diagrams/SSL-4.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 </p>
 After creating a self-signed certificate, I imported my certificate into Azure key vault 
 
 <p>
-<img src="https://github.com/kleeloy/Azure-Cloud-Web-Application-/blob/main/Diagrams/step8-project1.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/kleeloy/Azure-SSL-Certificates/blob/main/Diagrams/SSL-5.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 </p>
 Finding multiple security risks, I replaced my first certificate by using Azure's services to add a more secure certificate, an app service managed certificate, directly to my web application. 
 
